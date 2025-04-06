@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "lista2"
+version = "0.1.0"
+description = ""
+authors = ["Nagi0 <brunolefonseca13@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ipykernel = "^6.29.5"
+python-dotenv = "^1.1.0"
+kagglehub = "^0.3.11"
+pandas = "^2.2.3"
+numpy = "^2.2.4"
+matplotlib = "^3.10.1"
+seaborn = "^0.13.2"
+statsmodels = "^0.14.4"
+scikit-learn = "^1.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
