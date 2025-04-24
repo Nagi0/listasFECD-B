@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "lista2"
+name = "listas"
 version = "0.1.0"
 description = ""
 authors = ["Nagi0 <brunolefonseca13@gmail.com>"]
@@ -16,6 +16,8 @@ matplotlib = "^3.10.1"
 seaborn = "^0.13.2"
 statsmodels = "^0.14.4"
 scikit-learn = "^1.6.1"
+notebook = "^7.4.0"
+jupyter = "^1.1.1"
 
 
 [build-system]
