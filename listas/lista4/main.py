@@ -1,4 +1,4 @@
-from listas.lista4.mle import MLE
+from mle import MLE
 import numpy as np
 import matplotlib.pyplot as plt
 
