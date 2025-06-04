@@ -8,7 +8,7 @@ if __name__ == "__main__":
     x2 = [11, 67, 92, 32, 85, 36, 20, 69, 58, 47, 100, 72]
     x = np.stack([np.ones_like(x1), x1, x2], axis=1)
 
-    plot_expected_value([-2.0, -0.4, -0.005], (10, 100), 10)
+    plot_expected_value([-2.0, -0.4, -0.005], (100, 10), 10)
 
     lambda_array = (1 / np.mean(y)) * np.ones_like(y)
     init_params = np.array([-np.log(np.mean(y)), 0, 0])[:, np.newaxis]
